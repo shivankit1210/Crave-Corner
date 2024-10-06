@@ -6,20 +6,32 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import { useSelector } from 'react-redux';
 
-const Image=styled(Box)`
+// const Image=styled(Box)`
 
-background-image:url('/assets/contact-bg.png');
-width: 100%;
-text-align: center;
-height: auto;
-background-size: 100%;
-padding: 40px 0px 60px;
-margin:20px 10px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-Items:center;
-`
+// background-image:url('/assets/contact-bg.png');
+// width: 100%;
+// text-align: center;
+// height: auto;
+// background-size: 100%;
+// padding: 40px 0px 60px;
+// margin:20px 10px;
+// display:flex;
+// flex-direction:column;
+// justify-content:center;
+// align-Items:center;
+// `
+
+const Image=styled(Box)({
+  display:'flex',
+  flexDirection:'row',
+  justifyContent:'center',
+  alignItems:'center',
+  gap:50
+
+
+})
+
+
 const Heading=styled(Typography)({
     marginTop:10,
     color:'white',
@@ -69,8 +81,8 @@ const Send=styled('input')({
     width:'10rem',
     height:'3.5rem',
     borderRadius:10,
-    backgroundColor: 'rgb(142, 181, 11)',
-    color: 'rgb(254, 254, 255)',
+    backgroundColor: `var(--maincol)`,
+    color: 'black',
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
@@ -82,6 +94,8 @@ const Order=styled(Box)({
     background:'white',
     width:'20rem',
     height:'12rem',
+    alignContent:"center",
+    justifyContent:'center',
     borderRadius:10,
     padding:'20px 20px',
     '& > p':{
@@ -91,7 +105,8 @@ const Order=styled(Box)({
         marginTop:10,
     },
     '& > button':{
-        marginTop:20
+        marginTop:20,
+        backgroundColor:`var(--maincol)`
     }
 })
  function SignUp() {
@@ -147,9 +162,7 @@ const Order=styled(Box)({
    
   return (
     <Image ref={container}>
-        <Heading>
-            Get In Touch
-        </Heading>
+        
         {/* <Input onSubmit={sendEmail}>
 
             <Field placeholder='Name' name='name'/>
@@ -160,6 +173,9 @@ const Order=styled(Box)({
         <Btn type='submit' value='Send' />
         </Input> */}
          <Input ref={form} onSubmit={sendEmail}>
+         <Heading>
+            Get In Touch
+        </Heading>
       {/* <label>Name</label> */}
       <Field type="text" name="name" placeholder='name'/>
       {/* <label>Phone Number</label> */}

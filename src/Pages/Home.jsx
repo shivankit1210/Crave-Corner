@@ -6,6 +6,7 @@ import MainFrame from '../components/Frame/MainFrame'
 
 const Container=styled(Box)({
     width: '100%',
+    // backgroundColor: `var(--maincol)`,
     backgroundColor: 'rgba(18, 18, 18, 0.9)',
     height: 'auto',
     backgroundSize: 'cover',

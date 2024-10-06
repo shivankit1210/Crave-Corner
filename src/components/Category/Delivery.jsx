@@ -46,6 +46,7 @@ const Item = styled(Box)({
 })
 
 const Btn=styled(ButtonBase)({
+  color:"black",
   marginLeft:20,
   width:110,
   marginBottom:50,
@@ -54,8 +55,7 @@ const Btn=styled(ButtonBase)({
   display:'flex',
   justifyContent:'center',
   alignItems:'center',
-  border:'2px solid rgb(142, 181, 11)',
-  background:'rgb(142, 181, 11)',
+  background:`var(--maincol)`,
   '&>svg':{
     fontSize:20,
     marginTop:2,

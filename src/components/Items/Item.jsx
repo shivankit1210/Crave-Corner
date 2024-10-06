@@ -36,7 +36,7 @@ const Container = styled(Box)({
         width:'10rem',
         height:'8rem',
 
-        border:'2px solid white',
+        border:'1px solid var(--maincol)',
         '@media (max-width:632px)':{
             width:'6rem',
             height:'6rem'
@@ -52,11 +52,12 @@ const Container = styled(Box)({
       },
     },
     '& > button':{
-        border:'2px solid rgb(142, 181, 11)',
-        backgroundColor: 'rgb(142, 181, 11)',
+        // border:'2px solid rgb(142, 181, 11)',
+        backgroundColor: `var(--maincol)`,
+        // backgroundColor: 'rgb(142, 181, 11)',
         width:'10rem',
         height:'3rem',
-       color:'white',
+       color:'black',
        fontWeight:700,
        '@media (max-width:632px)':{
         width:'7rem'

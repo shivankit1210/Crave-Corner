@@ -56,7 +56,7 @@ const Links=styled(Box)({
     }
 })
 const Info=styled(Typography)({
-    color:'rgb(142, 181, 11)',
+    color:`var(--maincol)`,
     marginLeft:25,
     fontSize:15,
     
@@ -101,10 +101,10 @@ const UperFooter=()=> {
         {/* for established */}
         <Main>
         <Heading>
-            AARUSH
+            Crave-Corner
         </Heading>
         <Font>
-        For two years, Aarush has graced the culinary scene of Gopeshwar, earning a reputation as an iconic destination for exceptional dining.
+        For two years, Crave Corner has graced the culinary scene of Gopeshwar, earning a reputation as an iconic destination for exceptional dining.
         </Font>
         </Main>
 
@@ -131,14 +131,14 @@ const UperFooter=()=> {
             <Box>
                     <Info>Restaurant Address</Info>
                 <Font>
-                    <MdLocationOn />Kothiyalsain,Gopeshwar 246424
+                    <MdLocationOn />near Karol Bagh, Delhi
                 </Font>
                 <Info>Customer Service</Info>
                 <Font>
-                    <MdCall /><a href="tel:+9520593613">+9520593613</a>
+                    <MdCall /><a href="tel:+9520593613">+91-9675111916</a>
                 </Font>
                 <Font>
-                    <GrMail /><a href="mailto:upadhyayharshit05@gmail.com">aarush@gmail.com</a>
+                    <GrMail /><a href="mailto:shivankit1210@gmail.com">shivankit1210@gmail.com</a>
                 </Font>
             </Box>
 
@@ -150,10 +150,10 @@ const UperFooter=()=> {
             DISCOVER
         </Lower>
         <Media>
-       <Box ><a href="https://www.facebook.com/harshit.upadhyay.332345"><BiLogoFacebook /></a></Box> 
-        <Box><a href="https://instagram.com/harshitupadhyaya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><AiFillInstagram /></a></Box>
-        <Box><a href="https://twitter.com/i/flow/single_sign_on"><BiLogoTwitter /></a></Box>
-        <Box><a href="https://youtube.com/shorts/qRhO0VDfPsE?si=qzeU60Lu5-gYm-QX"><AiFillGoogleCircle /></a></Box>
+       <Box ><a href="#"><BiLogoFacebook /></a></Box> 
+        <Box><a href="#"><AiFillInstagram /></a></Box>
+        <Box><a href="#"><BiLogoTwitter /></a></Box>
+        <Box><a href="#"><AiFillGoogleCircle /></a></Box>
         </Media>
         </Main>
        

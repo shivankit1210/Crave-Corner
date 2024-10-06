@@ -6,6 +6,7 @@ import store from './store/slice/main.js'
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
 import { BrowserRouter } from 'react-router-dom'
+import './App.css'
 
 let persistor=persistStore(store);
 

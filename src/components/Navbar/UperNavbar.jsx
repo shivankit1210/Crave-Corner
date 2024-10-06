@@ -13,7 +13,8 @@ import { slice4 } from "../../store/slice/service";
 const Header=styled(AppBar)({
     width: '100%',
     float: 'left',
-    backgroundColor: 'rgb(142, 181, 11)',
+    backgroundColor: `var(--maincol)`,
+    // backgroundColor: 'rgb(142, 181, 11)',
     height: 'auto',
     display:'flex',
     flexDirection:'row',
@@ -28,7 +29,8 @@ const Content=styled('section')({
     fontSize: 18,
     fontWeight:600,
     float: 'left',
-    backgroundColor: 'rgb(37, 37, 37)',
+    // backgroundColor: 'rgb(37, 37, 37)',
+    backgroundColor: `var(--maincol)` ,
     padding: '20px 30px',
 
     display:'flex',
@@ -152,19 +154,19 @@ const UperNavbar = () => {
       <Header position="static">
         <Content className="call-box">
           <Link href="tel:+9520593613">
-          <MdCall /> Call : +9520593613
+          <MdCall /> Call : +91-9675111916
           </Link>
         </Content>
         <Logo>
           <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2017%2F02%2F21%2F08%2F49%2Ffood-2085075_960_720.png&f=1&nofb=1&ipt=e6727fb95b614090319cfca9d70699efbce26350da8efc394d6ca0b87c82c1a9&ipo=images" alt="" />
-        <Typography>
-           Aarush 
+        <Typography style={{color:"black",fontWeight:"900"}}>
+           Crave Corner 
         </Typography>
         
         </Logo>
         <Content className="call-box">
-          <Link href="mailto:upadhyayharshit05@gmail.com">
-          <IoMdMail /> Email : arush14@gmail.com
+          <Link href="mailto:shivankit1210@gmail.com">
+          <IoMdMail /> Email : shivankit1210@gmail.com
           </Link>
         </Content>
         <Sidebar>
@@ -175,7 +177,8 @@ const UperNavbar = () => {
           '& .MuiDrawer-paper':{
             zIndex: 99999999999999,
             width:'100%',
-            backgroundColor: 'rgb(0, 0, 0, 0.9)',
+            backgroundColor: `var(--maincol)`,
+            // backgroundColor: 'rgb(0, 0, 0, 0.9)',
             display:'flex',
             gap:10,
             padding:'35px 35px', 

@@ -11,6 +11,8 @@ import breakfast from '../../DB/breakfast'
 import coffee from '../../DB/coffee'
 import dinner from '../../DB/dinner'
 import drinks from '../../DB/drinks'
+import { FitScreen } from '@mui/icons-material'
+
 const Header=styled(Box)({
     width: '70%',
     color: 'rgb(255, 255, 255)',
@@ -42,12 +44,12 @@ const Main=styled(Box)({
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    flexDirection:'column'
+    flexDirection:'column',
 })
 const City=styled(Typography)({
     width: 385,
     fontSize: 50,
-    color: 'rgb(142, 181, 11)',
+    color: `var(--maincol)`,
     fontWeight: 800,
     textAlign: 'center',
     backgroundColor: 'rgb(255, 255, 255)',
@@ -105,7 +107,8 @@ const Click=styled(ButtonBase)({
     fontWeight:600,
     fontSize: 20,
     color: 'rgb(255, 255, 255)',
-    backgroundColor: 'rgb(142, 181, 11)',
+    backgroundColor: `var(--maincol)`,
+    // backgroundColor: 'rgb(142, 181, 11)',
     textAlign: 'center',
     padding: '10px 0px',
     borderRadius: 5,
@@ -192,9 +195,9 @@ const MainFrame=()=> {
     </Typography>
         </Header>
         {/* for main heading */}
-        <Box>
+        <Box >
             <City>
-                GOPESHWAR
+                DELHI
             </City>
         </Box>
         {/* for search */}
