@@ -32,7 +32,7 @@ const Font=styled(Typography)({
 })
 const Heading=styled(Typography)({
     fontSize:40,
-    color:'rgb(255,255,255)',
+    color: `var(--maincol)`,
     fontWeight:'bold'
 })
 const Lower=styled(Typography)({
@@ -100,8 +100,8 @@ const UperFooter=()=> {
     <Container ref={about}>
         {/* for established */}
         <Main>
-        <Heading>
-            Crave-Corner
+        <Heading style={{textDecoration:"underline"}}>
+          Crave-Corner
         </Heading>
         <Font>
         For two years, Crave Corner has graced the culinary scene of Gopeshwar, earning a reputation as an iconic destination for exceptional dining.
@@ -135,7 +135,7 @@ const UperFooter=()=> {
                 </Font>
                 <Info>Customer Service</Info>
                 <Font>
-                    <MdCall /><a href="tel:+9520593613">+91-9675111916</a>
+                    <MdCall /><a href="tel:+9520593213">+91-9675241816</a>
                 </Font>
                 <Font>
                     <GrMail /><a href="mailto:shivankit1210@gmail.com">shivankit1210@gmail.com</a>

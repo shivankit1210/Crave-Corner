@@ -154,7 +154,7 @@ const UperNavbar = () => {
       <Header position="static">
         <Content className="call-box">
           <Link href="tel:+9520593613">
-          <MdCall /> Call : +91-9675111916
+          <MdCall /> Call : +91-9675241816
           </Link>
         </Content>
         <Logo>
