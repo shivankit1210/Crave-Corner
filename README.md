@@ -1,5 +1,5 @@
-# Aarush Restaurant Website
-![aarush1](https://github.com/hars-shit/Aarush-Restaurant/assets/78030776/bf79a4a7-4457-41bf-803f-dfa7075b736c)
+# Crave Corner
+![aarush1](https://github.com/shivankit1210/Crave-Corner/assets/78030776/bf79a4a7-4457-41bf-803f-dfa7075b736c)
 
 
 Welcome to the Aarush Restaurant Website project! This is a responsive website created using React, Material-UI,Email.js, and Redux Toolkit. The website showcases the Aarush Restaurant, providing information about its menu, services, contact details, and more.
@@ -18,15 +18,15 @@ https://aarush-restaurant.vercel.app/
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-![aarush1](https://github.com/hars-shit/Aarush-Restaurant/assets/78030776/fa362c3d-bc36-45d2-833a-867ca20d0263)
- | ![aarush1](https://github.com/hars-shit/Aarush-Restaurant/assets/78030776/1d4f77ae-d6bb-4ec6-a032-85ccddd3ebed)
+![aarush1](https://github.com/shivankit1210/Crave-Corner/assets/78030776/fa362c3d-bc36-45d2-833a-867ca20d0263)
+ | ![aarush1](https://github.com/shivankit1210/Crave-Corner/assets/78030776/1d4f77ae-d6bb-4ec6-a032-85ccddd3ebed)
  |
 
 ## Getting Started
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/aarush-restaurant.git`
-2. Navigate to the project directory: `cd aarush-restaurant`
+1. Clone the repository: `git clone https://github.com/shivankit1210/Crave-Corner.git`
+2. Navigate to the project directory: `cd Crave-Corner`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
