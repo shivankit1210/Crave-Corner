@@ -9,7 +9,7 @@ import { slice5 } from '../../store/slice/shop'
 import { slice4 } from '../../store/slice/service'
 
 const Navbar=styled(AppBar)({
-    width: '70%',
+    width: '50%',
     textAlign: 'center',
     backgroundColor: 'rgb(37, 37, 37)',
     height: 'auto',
@@ -78,8 +78,9 @@ const LowerNavbar=()=> {
     const dispatch=useDispatch();
     const [about,setAbout]=useState(false);
     const [contact,setContact]=useState(false);
-    const [service,setService]=useState(false);
-    const [shop,setShop]=useState(false);
+    // const [service,setService]=useState(false);
+    // const [shop,setShop]=useState(false);
+
     const handleAbout=()=>{
         setAbout(true)
        dispatch(slice2(true))
@@ -91,17 +92,17 @@ const LowerNavbar=()=> {
         // {console.log("about",about)}
     }
    
-    const handleShop=()=>{
-        setShop(true)
-       dispatch(slice5(true))
-        // {console.log("about",about)}
-    }
+    // const handleShop=()=>{
+    //     setShop(true)
+    //    dispatch(slice5(true))
+    //     // {console.log("about",about)}
+    // }
    
-    const handleService=()=>{
-        setService(true)
-       dispatch(slice4(true))
-        // {console.log("about",about)}
-    }
+    // const handleService=()=>{
+    //     setService(true)
+    //    dispatch(slice4(true))
+    //     // {console.log("about",about)}
+    // }
    
   return (
     <Navbar position='static'>
@@ -110,7 +111,7 @@ const LowerNavbar=()=> {
             <Button onClick={()=>handleAbout(about)}>About</Button>
             <Button onClick={()=>handleContact(contact)}>Contact Us</Button>
             <Button  onClick={()=>navigate('/delivery')}>Shop</Button>
-            <Button onClick={()=>handleService(service)}>Services</Button>
+            {/* <Button onClick={()=>handleService(service)}>Services</Button> */}
         </First>
         <Search>
           <Link to={'/delivery'}><MdShoppingCart /></Link>

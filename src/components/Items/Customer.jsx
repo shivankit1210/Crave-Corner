@@ -45,13 +45,13 @@ const Customer=()=> {
                 Pratibha
             </Name>
             <Message>
-            For vegetarians, Aarush is a paradise of options. The array of vegetarian dishes is so flavorful and satisfying that even meat lovers are won over.
+            For vegetarians, Crave Corner is a paradise of options. The array of vegetarian dishes is so flavorful and satisfying that even meat lovers are won over.
             </Message>
             <Name>
                 Shobhit
             </Name>
             <Message>
-            Aarush takes traditional Indian recipes and infuses them with a contemporary twist. It's a fusion of cultures that results in dishes that are familiar yet excitingly new.
+            Crave Corner takes traditional Indian recipes and infuses them with a contemporary twist. It's a fusion of cultures that results in dishes that are familiar yet excitingly new.
             </Message>
             <Name>
                 Rohan Kumar

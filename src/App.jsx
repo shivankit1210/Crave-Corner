@@ -19,8 +19,8 @@ function App() {
 
     <Route path='/coffee' element={<Coffee />} />
     <Route path='/breakfast' element={<Breakfast />} />
-    <Route path='/delivery' element={<Delivery />} />
-    <Route path='/diningtable' element={<Dining/>} />
+    <Route path='/home-delivery' element={<Delivery />} />
+    <Route path='/book-table' element={<Dining/>} />
     <Route path='/dinner' element={<Dinner />} />
     <Route path='/drinks' element={<Drinks />} />
   </Routes>

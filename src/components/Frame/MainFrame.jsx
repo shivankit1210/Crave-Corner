@@ -49,7 +49,7 @@ const Main=styled(Box)({
 const City=styled(Typography)({
     width: 385,
     fontSize: 50,
-    color: `var(--maincol)`,
+    color: `black`,
     fontWeight: 800,
     textAlign: 'center',
     backgroundColor: 'rgb(255, 255, 255)',
@@ -197,7 +197,7 @@ const MainFrame=()=> {
         {/* for main heading */}
         <Box >
             <City>
-                DELHI
+                Noida
             </City>
         </Box>
         {/* for search */}

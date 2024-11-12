@@ -1,32 +1,32 @@
 const Data=[
     {
         img:'/assets/breakfast-img.png',
-        title:'Breakfast',
+        title:'BREAKFAST',
         button:'SEE MORE',       
     },
     {
         img:'/assets/coffee-img.png',
-        title:'Coffee',
-        button:'SEE MORE',       
-    },
-    {
-        img:'/assets/delivery-img.png',
-        title:'Delivery',
+        title:'COFFEE',
         button:'SEE MORE',       
     },
     {
         img:'/assets/dinner-img.png',
-        title:'Dinner',
-        button:'SEE MORE',       
-    },
-    {
-        img:'/assets/diningtable-img.png',
-        title:'Diningtable',
+        title:'DINNER',
         button:'SEE MORE',       
     },
     {
         img:'/assets/alcohol-img.png',
-        title:'Drinks',
+        title:'DRINKS',
+        button:'SEE MORE',       
+    },
+    {
+        img:'/assets/diningtable-img.png',
+        title:'BOOK-TABLE',
+        button:'SEE MORE',       
+    },
+    {
+        img:'/assets/delivery-img.png',
+        title:'HOME-DELIVERY',
         button:'SEE MORE',       
     },
 ]
